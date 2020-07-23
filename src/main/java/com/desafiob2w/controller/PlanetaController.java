@@ -61,7 +61,7 @@ public class PlanetaController {
 				planeta.getTerreno(), buscaAparicao(result, planeta)));
 	}
 
-	@ApiOperation("Planeta um planeta pelo nome")
+	@ApiOperation("Busca um planeta pelo nome")
 	@GetMapping("/planeta/{nome}")
 	public ResponseEntity<List<PlanetaResponse>> listaPlanetasPorNome(
 			@RequestParam(value = "nome", defaultValue = "") String nome) {
