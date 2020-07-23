@@ -10,6 +10,8 @@
   O projeto foi desenvolvido na linguagem Java 8, Spring Boot e persistência no banco MongoDB. Também foi utilizado o Swagger para a documentação da API.
   
 # Funcionalidades
+  Para acessar a aplicação depois de inicializada no Spring Tools Suite, basta acessar o seguinte endereço no browser: http://localhost:8080/swagger-ui.html
+
   Tem como funcionalidades:
   
   - Incluir um planeta:
